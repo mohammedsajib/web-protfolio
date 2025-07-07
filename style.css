@@ -1,15 +1,70 @@
-
+body{
+  margin: 0;
+}
   h1{  font-size: 50px;
+    
+}
+h2{
+  font-size: 40px;
 }
 .names{
     color: #33e706;
 }
 .half{
   width: 40%;
-  float: left;
+ float: left;
   margin-left: 5%;
   padding-left: 2%;
 }
 .half img{
   width: 100%;
+}
+.top-b{
+
+  background-image: url("image/top-banner.png");
+  background-repeat: no-repeat;
+ 
+}
+section{
+  height: 500px;
+  padding-bottom: 150px;
+}
+.link-b{
+  text-decoration: none;
+ background-color: orange;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  
+}
+.dream-b{
+  background-image: url("image/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.singel-e{
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 5px;
+  height: 60%;
+  background-color: white;
+}
+.experience-a{
+
+background-image: url(image/exp-bg.png);
+background-repeat: no-repeat;
+background-position: left ;
+}
+#full-s{
+  border-left: 7px solid;
+  border-image: (180deg, rgb(206, 9, 9), tomato);
+  border-image-slice: 1;
+}
+#baby-web{
+  border-left: 7px solid;
+  border-image: (180deg, rgb(196, 7, 7), tomato);
+ border-image-slice: 1;
+}
+footer p{
+  text-align: center;
 }
